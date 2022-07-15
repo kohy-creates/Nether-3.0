@@ -1,6 +1,6 @@
 {
 	"description": "Blocks that generate in the Nether",
-    "credits":"Starmute",
+	"credits": "Starmute",
 	"values": [
 		"minecraft:warped_fungus",
 		"minecraft:crimson_fungus",

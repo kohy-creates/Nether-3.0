@@ -20,8 +20,8 @@
 				}
 			}
 		},
-    {
-      "type":"in_square"
-    }
+		{
+			"type": "in_square"
+		}
 	]
 }

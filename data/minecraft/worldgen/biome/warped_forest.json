@@ -2,7 +2,6 @@
 	"temperature": -2,
 	"downfall": 0,
 	"precipitation": "none",
-	"category": "icy",
 	"effects": {
 		"sky_color": 5667492,
 		"fog_color": 4283249,

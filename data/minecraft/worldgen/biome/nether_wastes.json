@@ -2,7 +2,6 @@
   "temperature": 2,
   "downfall": 0,
   "precipitation": "none",
-  "category": "nether",
   "effects": {
     "sky_color": 7254527,
     "fog_color": 2491139,
@@ -91,7 +90,7 @@
   "carvers": {
     "air": [
       "minecraft:nether_cave"
-      ]
+    ]
   },
   "features": [
     [
@@ -110,7 +109,7 @@
     [
       "fokastudio:nether_wastes/mushrooms",
       "fokastudio:nether_wastes/trees"
-      ],
+    ],
     [
       "minecraft:ore_gravel_nether",
       "fokastudio:nether_wastes/decoration"

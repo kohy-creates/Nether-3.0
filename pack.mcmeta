@@ -1,6 +1,131 @@
 {
     "pack": {
-        "pack_format": 9,
-        "description": [{"text":"N","color":"dark_red"},{"text":"e","color":"#c40606"},{"text":"t","color":"#ca0c0c"},{"text":"h","color":"#d11212"},{"text":"e","color":"#d71919"},{"text":"r ","color":"#de1f1f"},{"text":"3","color":"#e42525"},{"text":".","color":"#ea2c2c"},{"text":"0 ","color":"#f13232"},{"text":"- ","color":"#f73838"},{"text":"T","color":"red"},{"text":"h","color":"#fa493d"},{"text":"e ","color":"#f6533c"},{"text":"H","color":"#f25d3b"},{"text":"e","color":"#ef673a"},{"text":"l","color":"#eb7139"},{"text":"l","color":"#e77b38"},{"text":"i","color":"#e48537"},{"text":"s","color":"#e08f36"},{"text":"h ","color":"#dc9935"},{"text":"E","color":"gold"},{"text":"x","color":"#dcac35"},{"text":"p","color":"#e0b536"},{"text":"a","color":"#e4be37"},{"text":"n","color":"#e7c738"},{"text":"s","color":"#ebd039"},{"text":"i","color":"#efd93a"},{"text":"o","color":"#f2e23b"},{"text":"n ","color":"#f6eb3c"},{"text":"\ud83d\udd25","color":"#faf43d"},{"text":"\ud83d\udd25","color":"yellow"}]
+        "pack_format": 10,
+        "description": [
+            {
+                "text": "N",
+                "color": "dark_red"
+            },
+            {
+                "text": "e",
+                "color": "#c40606"
+            },
+            {
+                "text": "t",
+                "color": "#ca0c0c"
+            },
+            {
+                "text": "h",
+                "color": "#d11212"
+            },
+            {
+                "text": "e",
+                "color": "#d71919"
+            },
+            {
+                "text": "r ",
+                "color": "#de1f1f"
+            },
+            {
+                "text": "3",
+                "color": "#e42525"
+            },
+            {
+                "text": ".",
+                "color": "#ea2c2c"
+            },
+            {
+                "text": "0 ",
+                "color": "#f13232"
+            },
+            {
+                "text": "- ",
+                "color": "#f73838"
+            },
+            {
+                "text": "T",
+                "color": "red"
+            },
+            {
+                "text": "h",
+                "color": "#fa493d"
+            },
+            {
+                "text": "e ",
+                "color": "#f6533c"
+            },
+            {
+                "text": "H",
+                "color": "#f25d3b"
+            },
+            {
+                "text": "e",
+                "color": "#ef673a"
+            },
+            {
+                "text": "l",
+                "color": "#eb7139"
+            },
+            {
+                "text": "l",
+                "color": "#e77b38"
+            },
+            {
+                "text": "i",
+                "color": "#e48537"
+            },
+            {
+                "text": "s",
+                "color": "#e08f36"
+            },
+            {
+                "text": "h ",
+                "color": "#dc9935"
+            },
+            {
+                "text": "E",
+                "color": "gold"
+            },
+            {
+                "text": "x",
+                "color": "#dcac35"
+            },
+            {
+                "text": "p",
+                "color": "#e0b536"
+            },
+            {
+                "text": "a",
+                "color": "#e4be37"
+            },
+            {
+                "text": "n",
+                "color": "#e7c738"
+            },
+            {
+                "text": "s",
+                "color": "#ebd039"
+            },
+            {
+                "text": "i",
+                "color": "#efd93a"
+            },
+            {
+                "text": "o",
+                "color": "#f2e23b"
+            },
+            {
+                "text": "n ",
+                "color": "#f6eb3c"
+            },
+            {
+                "text": "🔥",
+                "color": "#faf43d"
+            },
+            {
+                "text": "🔥",
+                "color": "yellow"
+            }
+        ]
     }
 }

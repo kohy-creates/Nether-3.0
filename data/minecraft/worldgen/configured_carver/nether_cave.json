@@ -46,6 +46,7 @@
 				"max": 0.3,
 				"plateau": -0.4
 			}
-		}
+		},
+		"replaceable": "#minecraft:nether_carver_replaceables"
 	}
 }

@@ -39,8 +39,8 @@
 			"type": "minecraft:heightmap",
 			"heightmap": "OCEAN_FLOOR"
 		},
-    {
-      "type":"in_square"
-    }
+		{
+			"type": "in_square"
+		}
 	]
 }

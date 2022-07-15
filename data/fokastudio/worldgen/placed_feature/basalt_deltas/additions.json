@@ -2,8 +2,8 @@
   "feature": "fokastudio:basalt_deltas/additions",
   "placement": [
     {
-			"type": "minecraft:biome"
-		},
+      "type": "minecraft:biome"
+    },
     {
       "type": "minecraft:noise_based_count",
       "noise_to_count_ratio": 90,

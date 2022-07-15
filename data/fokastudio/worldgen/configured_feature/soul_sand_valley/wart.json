@@ -74,35 +74,35 @@
                   "minecraft:soul_sand"
                 ]
               },
-							{
-								"type": "minecraft:not",
-								"predicate": {
-									"type": "minecraft:matching_blocks",
-									"blocks": [
-										"minecraft:lava"
-									]
-								}
-							},
-							{
-								"type": "minecraft:not",
-								"predicate": {
-									"type": "minecraft:matching_blocks",
-									"offset": [
-										0,
-										1,
-										0
-									],
-									"blocks": [
-										"minecraft:lava"
-									]
-								}
-							},
-							{
-								"type": "minecraft:matching_blocks",
-								"blocks": [
-									"minecraft:air"
-								]
-							}
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:lava"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:not",
+                "predicate": {
+                  "type": "minecraft:matching_blocks",
+                  "offset": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:lava"
+                  ]
+                }
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": [
+                  "minecraft:air"
+                ]
+              }
             ]
           }
         }

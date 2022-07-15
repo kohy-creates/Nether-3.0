@@ -26,9 +26,9 @@
 		],
 		"default": {
 			"feature": {
-                "type": "no_op",
-                "config": {}
-            },
+				"type": "no_op",
+				"config": {}
+			},
 			"placement": []
 		}
 	}

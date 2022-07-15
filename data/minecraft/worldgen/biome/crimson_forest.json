@@ -2,7 +2,6 @@
 	"temperature": 2,
 	"downfall": 0,
 	"precipitation": "none",
-	"category": "nether",
 	"effects": {
 		"sky_color": 7254527,
 		"fog_color": 3343107,
@@ -79,7 +78,7 @@
 	"features": [
 		[
 			"fokastudio:nether/stalactite",
-      		"fokastudio:nether/hills",
+			"fokastudio:nether/hills",
 			"fokastudio:crimson_forest/ceiling"
 		],
 		[

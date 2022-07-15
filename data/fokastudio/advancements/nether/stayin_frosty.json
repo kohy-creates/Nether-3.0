@@ -20,11 +20,11 @@
         "player": {
           "effects": {
             "minecraft:fire_resistance": {}
-          }
-        },
-        "location": {
-          "fluid": {
-            "tag": "minecraft:lava"
+          },
+          "location": {
+            "fluid": {
+              "tag": "minecraft:lava"
+            }
           }
         }
       }
