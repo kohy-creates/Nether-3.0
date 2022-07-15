@@ -64,24 +64,6 @@
 										"axis": "y"
 									}
 								}
-							},
-							{
-								"weight": 1,
-								"data": {
-									"Name": "minecraft:light_gray_concrete_powder",
-									"Properties": {
-										"axis": "y"
-									}
-								}
-							},
-							{
-								"weight": 1,
-								"data": {
-									"Name": "minecraft:gray_concrete_powder",
-									"Properties": {
-										"axis": "y"
-									}
-								}
 							}
 						]
 					}

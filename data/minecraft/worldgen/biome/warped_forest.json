@@ -79,15 +79,14 @@
 			"fokastudio:nether/hills"
 		],
 		[
+			"minecraft:basalt_pillar",
 			"fokastudio:warped_forest/deltas",
 			"fokastudio:warped_forest/lakes"
 		],
 		[
 			"minecraft:warped_forest_vegetation"
 		],
-		[
-			"minecraft:basalt_pillar"
-		],
+		[],
 		[],
 		[
 			"minecraft:twisting_vines"
@@ -110,7 +109,7 @@
 		[
 			"minecraft:glowstone",
 			"minecraft:glowstone_extra",
-			"fokastudio:structures/nether/dungeons"
+			"fokastudio:dungeons/nether/dungeons"
 		]
 	]
 }

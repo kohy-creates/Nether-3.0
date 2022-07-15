@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:random_patch",
 	"config": {
-		"tries": 360,
+		"tries": 20,
 		"xz_spread": 7,
 		"y_spread": 7,
 		"feature": {
@@ -11,24 +11,6 @@
 					"to_place": {
 						"type": "minecraft:weighted_state_provider",
 						"entries": [
-							{
-								"weight": 200,
-								"data": {
-									"Name": "minecraft:air"
-								}
-							},
-							{
-								"weight": 10,
-								"data": {
-									"Name": "minecraft:crying_obsidian"
-								}
-							},
-							{
-								"weight": 60,
-								"data": {
-									"Name": "minecraft:obsidian"
-								}
-							},
 							{
 								"weight": 40,
 								"data": {

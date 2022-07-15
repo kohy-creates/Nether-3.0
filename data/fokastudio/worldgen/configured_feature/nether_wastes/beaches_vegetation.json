@@ -223,7 +223,7 @@
 				}
 			},
 			{
-				"chance": 0.3,
+				"chance": 0.1,
 				"feature": {
 					"feature": {
 						"type": "minecraft:block_column",
@@ -313,10 +313,20 @@
 						}
 					]
 				}
+			},
+			{
+				"chance": 0.06,
+				"feature": {
+					"feature": "fokastudio:nether_wastes/dead_tree",
+					"placement": []
+				}
 			}
 		],
 		"default": {
-			"feature": "fokastudio:nether_wastes/dead_tree",
+			"feature": {
+				"type": "minecraft:no_op",
+				"config": {}
+			},
 			"placement": []
 		}
 	}

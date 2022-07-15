@@ -99,12 +99,6 @@
                     "data": {
                       "Name": "minecraft:red_terracotta"
                     }
-                  },
-                  {
-                    "weight": 3,
-                    "data": {
-                      "Name": "minecraft:red_concrete"
-                    }
                   }
                 ]
               }

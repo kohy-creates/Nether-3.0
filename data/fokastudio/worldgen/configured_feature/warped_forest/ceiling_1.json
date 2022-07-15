@@ -99,12 +99,6 @@
                     "data": {
                       "Name": "minecraft:cyan_terracotta"
                     }
-                  },
-                  {
-                    "weight": 3,
-                    "data": {
-                      "Name": "minecraft:cyan_concrete"
-                    }
                   }
                 ]
               }

@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:fossil",
 	"config": {
-		"max_empty_corners_allowed": 0,
+		"max_empty_corners_allowed": 2,
 		"fossil_structures": [
 			"fokastudio:nether/dungeons/small_magma"
 		],

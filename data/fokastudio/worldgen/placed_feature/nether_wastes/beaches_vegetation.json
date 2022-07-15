@@ -6,7 +6,7 @@
 		},
 		{
 			"type": "minecraft:count_on_every_layer",
-			"count": 1
+			"count": 30
 		},
 		{
 			"type": "minecraft:block_predicate_filter",

@@ -107,12 +107,6 @@
               "data": {
                 "Name": "minecraft:packed_ice"
               }
-            },
-            {
-              "weight": 7,
-              "data": {
-                "Name": "minecraft:white_concrete_powder"
-              }
             }
           ]
         }

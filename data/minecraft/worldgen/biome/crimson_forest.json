@@ -81,7 +81,8 @@
 			"fokastudio:nether/hills",
 			"fokastudio:crimson_forest/ceiling"
 		],
-		[
+		[	
+			"minecraft:basalt_pillar",
 			"fokastudio:crimson_forest/deltas"
 		],
 		[
@@ -112,7 +113,7 @@
 			"minecraft:red_mushroom_normal",
 			"minecraft:weeping_vines",
 			"minecraft:crimson_forest_vegetation",
-			"fokastudio:structures/nether/dungeons"
+			"fokastudio:dungeons/nether/dungeons"
 		],
 		[],
 		[]

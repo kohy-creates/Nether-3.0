@@ -130,7 +130,7 @@
       "fokastudio:nether_geode",
       "fokastudio:nether_wastes/beaches_vegetation",
       "minecraft:patch_soul_fire",
-      "fokastudio:structures/nether/dungeons"
+      "fokastudio:dungeons/nether/dungeons"
     ],
     []
   ]

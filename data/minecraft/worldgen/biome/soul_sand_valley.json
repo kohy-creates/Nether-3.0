@@ -125,8 +125,7 @@
 			"fokastudio:soul_sand_valley/decorate"
 		],
 		[
-			"fokastudio:soul_sand_valley/fortress",
-			"fokastudio:structures/nether/dungeons"
+			"fokastudio:dungeons/nether/dungeons"
 		]
 	]
 }

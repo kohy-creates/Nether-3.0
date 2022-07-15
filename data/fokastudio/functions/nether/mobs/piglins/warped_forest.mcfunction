@@ -1,8 +1,8 @@
-function fokastudio:nether/mobs/piglins/warped_forest/boots
+item replace entity @s armor.feet with leather_boots
 
-execute if predicate fokastudio:nether/chance/35_percent run function fokastudio:nether/mobs/piglins/warped_forest/chestplate
-execute if predicate fokastudio:nether/chance/35_percent run function fokastudio:nether/mobs/piglins/warped_forest/leggings
-execute if predicate fokastudio:nether/chance/35_percent run function fokastudio:nether/mobs/piglins/warped_forest/boots
+execute if predicate fokastudio:nether/chance/35_percent run item replace entity @s armor.chest with leather_chestplate
+execute if predicate fokastudio:nether/chance/35_percent run item replace entity @s armor.legs with leather_leggings
+execute if predicate fokastudio:nether/chance/35_percent run item replace entity @s armor.head with leather_helmet
 
 item modify entity @s armor.chest fokastudio:warped_piglins_colors
 item modify entity @s armor.feet fokastudio:warped_piglins_colors
