@@ -1,0 +1,27 @@
+{
+	"feature": "fokastudio:nether_geode",
+	"placement": [
+		{
+			"type": "minecraft:biome"
+		},
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 6
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"above_bottom": 12
+				},
+				"max_inclusive": {
+					"below_top": 12
+				}
+			}
+		},
+		{
+		  "type":"in_square"
+		}
+	]
+}
