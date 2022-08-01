@@ -42,61 +42,12 @@
 			"shift_y": 0,
 			"shift_z": "minecraft:shift_z"
 		},
-		"continents": 0,
-		"erosion": 0,
+		"continents": "fokastudio:nether/continents",
+		"erosion": "fokastudio:nether/erosion",
 		"depth": 0,
-		"ridges": 0,
+		"ridges": "fokastudio:nether/ridges",
 		"initial_density_without_jaggedness": 0,
-		"final_density": {
-			"type": "minecraft:squeeze",
-			"argument": {
-				"type": "minecraft:mul",
-				"argument1": 0.64,
-				"argument2": {
-					"type": "minecraft:interpolated",
-					"argument": {
-						"type": "minecraft:blend_density",
-						"argument": {
-							"type": "minecraft:add",
-							"argument1": 2.5,
-							"argument2": {
-								"type": "minecraft:mul",
-								"argument1": {
-									"type": "minecraft:y_clamped_gradient",
-									"from_y": -8,
-									"to_y": 24,
-									"from_value": 0,
-									"to_value": 1
-								},
-								"argument2": {
-									"type": "minecraft:add",
-									"argument1": -2.5,
-									"argument2": {
-										"type": "minecraft:add",
-										"argument1": 0.9375,
-										"argument2": {
-											"type": "minecraft:mul",
-											"argument1": {
-												"type": "minecraft:y_clamped_gradient",
-												"from_y": 168,
-												"to_y": 192,
-												"from_value": 1,
-												"to_value": 0
-											},
-											"argument2": {
-												"type": "minecraft:add",
-												"argument1": -0.9375,
-												"argument2": "minecraft:nether/base_3d_noise"
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		},
+		"final_density": "fokastudio:nether/final_density",
 		"vein_toggle": 0,
 		"vein_ridged": 0,
 		"vein_gap": 0
@@ -232,7 +183,7 @@
 										"if_true": {
 											"type": "minecraft:noise_threshold",
 											"noise": "minecraft:nether_state_selector",
-											"min_threshold": 0,
+											"min_threshold": 0.45,
 											"max_threshold": 1.7976931348623157e+308
 										},
 										"then_run": {
@@ -459,7 +410,8 @@
 							"if_true": {
 								"type": "minecraft:biome",
 								"biome_is": [
-									"minecraft:warped_forest"
+									"minecraft:warped_forest",
+									"fokastudio:warped_plains"
 								]
 							},
 							"then_run": {
@@ -517,7 +469,8 @@
 							"if_true": {
 								"type": "minecraft:biome",
 								"biome_is": [
-									"minecraft:crimson_forest"
+									"minecraft:crimson_forest",
+									"fokastudio:crimson_plains"
 								]
 							},
 							"then_run": {

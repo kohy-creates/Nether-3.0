@@ -3,6 +3,9 @@
   "values": [
     "minecraft:porkchop",
     "minecraft:cooked_porkchop",
-    "mushroom_stew"
+    "mushroom_stew",
+    "cooked_beef",
+    "beef",
+    "golden_apple"
   ]
 }

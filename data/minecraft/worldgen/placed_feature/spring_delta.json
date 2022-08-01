@@ -1,9 +1,9 @@
 {
-	"feature": "minecraft:spring_lava_nether",
+	"feature": "minecraft:spring_nether_open",
 	"placement": [
 		{
 			"type": "minecraft:count",
-			"count": 30
+			"count": 27
 		},
 		{
 			"type": "minecraft:in_square"

@@ -49,7 +49,7 @@
 				}
 			],
 			"cannot_replace": "#minecraft:features_cannot_replace",
-			"invalid_blocks": "#fokastudio:geode_invalid"
+			"invalid_blocks": "#fokastudio:nether/geode_invalid"
 		},
 		"layers": {
 			"filling": 1.7,

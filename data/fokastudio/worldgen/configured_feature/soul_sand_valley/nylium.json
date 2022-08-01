@@ -8,7 +8,7 @@
 		"extra_edge_column_chance": 0.3,
 		"vegetation_chance": 0.44333,
 		"xz_radius": 7,
-		"replaceable": "#fokastudio:netherrack",
+		"replaceable": "#fokastudio:nether/netherrack",
 		"ground_state": {
 			"type": "minecraft:weighted_state_provider",
 			"entries": [

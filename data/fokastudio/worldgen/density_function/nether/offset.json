@@ -1,0 +1,58 @@
+{
+	"type": "minecraft:spline",
+	"spline": {
+		"coordinate": "fokastudio:nether/continents",
+		"points": [
+			{
+				"location": -0.72,
+				"derivative": 0,
+				"value": -0.13
+			},
+			{
+				"location": -0.6,
+				"derivative": 0.1,
+				"value": 0.06
+			},
+			{
+				"location": -0.28,
+				"derivative": -0.3,
+				"value": -0.16
+			},
+			{
+				"location": -0.17,
+				"derivative": -0.1,
+				"value": -0.094
+			},
+			{
+				"location": 0,
+				"derivative": 0,
+				"value": 0
+			},
+			{
+				"location": 0.1,
+				"derivative": 0,
+				"value": 0.05
+			},
+			{
+				"location": 0.4,
+				"derivative": 0,
+				"value": -0.6
+			},
+			{
+				"location": 0.56,
+				"derivative": 0.24,
+				"value": 0.31
+			},
+			{
+				"location": 0.7,
+				"derivative": 0.1,
+				"value": 0.4
+			},
+			{
+				"location": 0.89,
+				"derivative": 0,
+				"value": 0.21
+			}
+		]
+	}
+}

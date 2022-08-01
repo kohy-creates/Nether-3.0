@@ -2,7 +2,7 @@
   "type": "minecraft:delta_feature",
   "config": {
     "contents": {
-      "Name": "minecraft:warped_wart_block"
+      "Name": "minecraft:end_stone"
     },
     "rim": {
       "Name": "minecraft:netherrack"

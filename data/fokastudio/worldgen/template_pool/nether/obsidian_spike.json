@@ -1,0 +1,60 @@
+{
+	"name": "fokastudio:nether/obsidian_spike",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:nether/obsidian_pillar/1",
+				"processors": "fokastudio:nether/obsidian_spike"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:nether/obsidian_pillar/2",
+				"processors": "fokastudio:nether/obsidian_spike"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:nether/obsidian_pillar/3",
+				"processors": "fokastudio:nether/obsidian_spike"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:nether/obsidian_pillar/4",
+				"processors": "fokastudio:nether/obsidian_spike"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:nether/obsidian_pillar/5",
+				"processors": "fokastudio:nether/obsidian_spike"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:nether/obsidian_pillar/6",
+				"processors": "fokastudio:nether/obsidian_spike"
+			}
+		}
+	]
+}

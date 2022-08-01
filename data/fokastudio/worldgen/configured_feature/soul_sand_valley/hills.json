@@ -14,7 +14,7 @@
 				"max_inclusive": 6
 			}
 		},
-		"replaceable": "#fokastudio:soul_blocks",
+		"replaceable": "#fokastudio:nether/soul_blocks",
 		"ground_state": {
 			"type": "minecraft:weighted_state_provider",
 			"entries": [

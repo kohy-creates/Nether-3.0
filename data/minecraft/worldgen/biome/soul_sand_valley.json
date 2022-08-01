@@ -12,7 +12,7 @@
 		"ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
 		"mood_sound": {
 			"sound": "minecraft:ambient.soul_sand_valley.mood",
-			"tick_delay": 900,
+			"tick_delay": 1100,
 			"block_search_extent": 8,
 			"offset": 2
 		},
@@ -30,7 +30,7 @@
 			"options": {
 				"type": "minecraft:ash"
 			},
-			"probability": 0.00625
+			"probability": 0.0625
 		}
 	},
 	"spawners": {
@@ -38,18 +38,24 @@
 			{
 				"type": "minecraft:wither_skeleton",
 				"weight": 60,
-				"minCount": 1,
-				"maxCount": 6
+				"minCount": 2,
+				"maxCount": 3
 			},
 			{
 				"type": "minecraft:skeleton",
 				"weight": 90,
 				"minCount": 4,
-				"maxCount": 6
+				"maxCount": 5
 			},
 			{
 				"type": "minecraft:enderman",
 				"weight": 1,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
+				"type": "minecraft:ghast",
+				"weight": 50,
 				"minCount": 4,
 				"maxCount": 4
 			}
@@ -58,71 +64,54 @@
 			{
 				"type": "minecraft:strider",
 				"weight": 60,
-				"minCount": 1,
-				"maxCount": 2
+				"minCount": 4,
+				"maxCount": 4
 			}
 		],
-		"ambient": [
-			{
-				"type": "minecraft:ghast",
-				"weight": 450,
-				"minCount": 1,
-				"maxCount": 1
-			}
-		],
+		"ambient": [],
 		"underground_water_creature": [],
 		"water_creature": [],
 		"water_ambient": [],
 		"misc": []
 	},
-	"spawn_costs": {
-		"minecraft:ghast": {
-			"energy_budget": 0.1,
-			"charge": 0.8
-		}
-	},
+	"spawn_costs": {},
 	"carvers": {
 		"air": [
-			"minecraft:nether_cave"
+			"minecraft:nether_cave" 
 		]
 	},
 	"features": [
 		[
-			"fokastudio:nether/stalactite",
-			"fokastudio:nether/hills",
-			"fokastudio:soul_sand_valley/nylium",
 			"fokastudio:soul_sand_valley/stalactite",
 			"fokastudio:soul_sand_valley/hills"
 		],
-		[],
 		[
-			"minecraft:basalt_pillar",
-			"fokastudio:soul_sand_valley/weeping_vines"
+			"minecraft:basalt_pillar"
 		],
 		[],
 		[],
 		[],
-		[
-			"minecraft:ore_blackstone"
-		],
+		[],
+		[],
 		[
 			"minecraft:spring_open",
-			"minecraft:glowstone_extra",
-			"minecraft:glowstone",
 			"minecraft:ore_magma",
-			"minecraft:spring_closed",
-			"minecraft:ore_soul_sand",
-			"minecraft:ore_gravel_nether",
+			"minecraft:ore_blackstone",
 			"minecraft:ore_gold_nether",
 			"minecraft:ore_quartz_nether",
 			"minecraft:ore_ancient_debris_large",
 			"minecraft:ore_debris_small",
+			"minecraft:ore_gravel_nether",
+			"minecraft:glowstone",
+			"minecraft:glowstone_extra",
+			"minecraft:ore_soul_sand",
 			"fokastudio:nether_geode"
 		],
 		[],
 		[
-			"minecraft:spring_lava",
-			"fokastudio:soul_sand_valley/decorate"
+			"fokastudio:soul_sand_valley/nylium",
+			"fokastudio:soul_sand_valley/decorate",
+			"fokastudio:soul_sand_valley/weeping_vines"
 		],
 		[
 			"fokastudio:dungeons/nether/dungeons"

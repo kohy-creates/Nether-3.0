@@ -1,52 +1,48 @@
 {
-	"type": "minecraft:nether_cave",
+	"type": "minecraft:cave",
 	"config": {
-		"probability": 0.444,
+		"probability": 0.27,
 		"y": {
 			"type": "minecraft:uniform",
 			"min_inclusive": {
-				"above_bottom": 5
+				"above_bottom": 10
 			},
 			"max_inclusive": {
-				"below_top": 5
+				"below_top": 10
 			}
 		},
 		"yScale": {
-			"type": "minecraft:trapezoid",
+			"type": "minecraft:uniform",
 			"value": {
-				"min": 0.2,
-				"max": 1,
-				"plateau": 0.4
+				"min_inclusive": 0.2,
+				"max_exclusive": 1.3
 			}
 		},
 		"lava_level": {
-			"above_bottom": 10
+			"absolute": 31
 		},
 		"aquifers_enabled": true,
 		"horizontal_radius_multiplier": {
-			"type": "minecraft:trapezoid",
+			"type": "minecraft:uniform",
 			"value": {
-				"min": 0.5,
-				"max": 1.5,
-				"plateau": 1
+				"min_inclusive": 0.5,
+				"max_exclusive": 2
 			}
 		},
 		"vertical_radius_multiplier": {
-			"type": "minecraft:trapezoid",
+			"type": "minecraft:uniform",
 			"value": {
-				"min": 0.5,
-				"max": 1.2,
-				"plateau": 0.7
+				"min_inclusive": 0.5,
+				"max_exclusive": 2
 			}
 		},
 		"floor_level": {
-			"type": "minecraft:trapezoid",
+			"type": "minecraft:uniform",
 			"value": {
-				"min": -0.7,
-				"max": 0.3,
-				"plateau": -0.4
+				"min_inclusive": -0.7,
+				"max_exclusive": 0.5
 			}
 		},
-		"replaceable": "#minecraft:nether_carver_replaceables"
+		"replaceable": "#fokastudio:nether/nether_blocks"
 	}
 }

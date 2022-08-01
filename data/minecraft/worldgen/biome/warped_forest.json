@@ -1,5 +1,5 @@
 {
-	"temperature": -2,
+	"temperature": 2,
 	"downfall": 0,
 	"precipitation": "none",
 	"effects": {
@@ -12,7 +12,7 @@
 		"ambient_sound": "minecraft:ambient.warped_forest.loop",
 		"mood_sound": {
 			"sound": "minecraft:ambient.warped_forest.mood",
-			"tick_delay": 900,
+			"tick_delay": 1100,
 			"block_search_extent": 8,
 			"offset": 2
 		},
@@ -23,34 +23,22 @@
 		"music": {
 			"sound": "minecraft:music.nether.warped_forest",
 			"min_delay": 3000,
-			"max_delay": 6000,
+			"max_delay": 9000,
 			"replace_current_music": false
 		},
 		"particle": {
 			"options": {
 				"type": "minecraft:warped_spore"
 			},
-			"probability": 0.01428
+			"probability": 0.025
 		}
 	},
 	"spawners": {
 		"monster": [
 			{
-				"type": "minecraft:phantom",
-				"weight": 15,
-				"minCount": 3,
-				"maxCount": 3
-			},
-			{
-				"type": "minecraft:silverfish",
-				"weight": 27,
-				"minCount": 3,
-				"maxCount": 5
-			},
-			{
 				"type": "minecraft:enderman",
-				"weight": 40,
-				"minCount": 1,
+				"weight": 50,
+				"minCount": 3,
 				"maxCount": 4
 			}
 		],
@@ -69,46 +57,46 @@
 	},
 	"carvers": {
 		"air": [
-			"minecraft:nether_cave"
-		],
-		"liquid": []
+			"minecraft:nether_cave" 
+		]
 	},
 	"features": [
 		[
 			"fokastudio:nether/stalactite",
-			"fokastudio:nether/hills"
+			"fokastudio:warped_forest/hills"
 		],
 		[
-			"minecraft:basalt_pillar",
-			"fokastudio:warped_forest/deltas",
-			"fokastudio:warped_forest/lakes"
-		],
-		[
-			"minecraft:warped_forest_vegetation"
+			"minecraft:basalt_pillar"	
 		],
 		[],
 		[],
+		[],
+		[],
+		[],
 		[
-			"minecraft:twisting_vines"
-		],
-		[
-			"fokastudio:warped_forest/bush",
-			"minecraft:warped_fungi",
-			"fokastudio:warped_forest/ceiling",
-			"fokastudio:warped_forest/trees"
-		],
-		[
+			"minecraft:spring_open",
+			"minecraft:ore_magma",
 			"minecraft:ore_blackstone",
+			"minecraft:ore_gold_nether",
 			"minecraft:ore_quartz_nether",
+			"minecraft:ore_ancient_debris_large",
 			"minecraft:ore_debris_small",
-			"fokastudio:warped_forest/ore_concrete_powder",
+			"minecraft:glowstone",
+			"minecraft:glowstone_extra"
+		],
+		[],
+		[
+			"minecraft:patch_fire",
+			"minecraft:twisting_vines",
+			"minecraft:brown_mushroom_nether",
+			"minecraft:red_mushroom_nether",
+			"fokastudio:warped_forest/trees",
+			"minecraft:warped_fungi",
+			"minecraft:warped_forest_vegetation",
 			"fokastudio:nether_geode"
 		],
-		[],
-		[],
 		[
-			"minecraft:glowstone",
-			"minecraft:glowstone_extra",
+			"fokastudio:warped_forest/deltas",
 			"fokastudio:dungeons/nether/dungeons"
 		]
 	]

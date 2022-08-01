@@ -1,0 +1,187 @@
+{
+	"type": "minecraft:simple_random_selector",
+	"config": {
+		"features": [
+			{
+				"feature": {
+					"type": "minecraft:ore",
+					"config": {
+						"size": 10,
+						"discard_chance_on_air_exposure": 0.15,
+						"targets": [
+							{
+								"target": {
+									"predicate_type": "minecraft:block_match",
+									"block": "minecraft:netherrack"
+								},
+								"state": {
+									"Name": "minecraft:nether_gold_ore"
+								}
+							},
+							{
+								"target": {
+									"predicate_type": "minecraft:block_match",
+									"block": "minecraft:blackstone"
+								},
+								"state": {
+									"Name": "minecraft:gilded_blackstone"
+								}
+							}
+						]
+					}
+				},
+				"placement": []
+			},
+			{
+				"feature": {
+					"type": "minecraft:ore",
+					"config": {
+						"size": 7,
+						"discard_chance_on_air_exposure": 0,
+						"targets": [
+							{
+								"target": {
+									"predicate_type": "minecraft:block_match",
+									"block": "minecraft:netherrack"
+								},
+								"state": {
+									"Name": "minecraft:nether_gold_ore"
+								}
+							},
+							{
+								"target": {
+									"predicate_type": "minecraft:block_match",
+									"block": "minecraft:blackstone"
+								},
+								"state": {
+									"Name": "minecraft:gilded_blackstone"
+								}
+							}
+						]
+					}
+				},
+				"placement": []
+			},
+			{
+				"feature": {
+					"type": "minecraft:ore",
+					"config": {
+						"size": 16,
+						"discard_chance_on_air_exposure": 0.4,
+						"targets": [
+							{
+								"target": {
+									"predicate_type": "minecraft:block_match",
+									"block": "minecraft:netherrack"
+								},
+								"state": {
+									"Name": "minecraft:nether_gold_ore"
+								}
+							},
+							{
+								"target": {
+									"predicate_type": "minecraft:block_match",
+									"block": "minecraft:blackstone"
+								},
+								"state": {
+									"Name": "minecraft:gilded_blackstone"
+								}
+							}
+						]
+					}
+				},
+				"placement": []
+			},
+			{
+				"feature": {
+					"type": "minecraft:scattered_ore",
+					"config": {
+						"size": 10,
+						"discard_chance_on_air_exposure": 0.15,
+						"targets": [
+							{
+								"target": {
+									"predicate_type": "minecraft:block_match",
+									"block": "minecraft:netherrack"
+								},
+								"state": {
+									"Name": "minecraft:nether_gold_ore"
+								}
+							},
+							{
+								"target": {
+									"predicate_type": "minecraft:block_match",
+									"block": "minecraft:blackstone"
+								},
+								"state": {
+									"Name": "minecraft:gilded_blackstone"
+								}
+							}
+						]
+					}
+				},
+				"placement": []
+			},
+			{
+				"feature": {
+					"type": "minecraft:scattered_ore",
+					"config": {
+						"size": 7,
+						"discard_chance_on_air_exposure": 0,
+						"targets": [
+							{
+								"target": {
+									"predicate_type": "minecraft:block_match",
+									"block": "minecraft:netherrack"
+								},
+								"state": {
+									"Name": "minecraft:nether_gold_ore"
+								}
+							},
+							{
+								"target": {
+									"predicate_type": "minecraft:block_match",
+									"block": "minecraft:blackstone"
+								},
+								"state": {
+									"Name": "minecraft:gilded_blackstone"
+								}
+							}
+						]
+					}
+				},
+				"placement": []
+			},
+			{
+				"feature": {
+					"type": "minecraft:scattered_ore",
+					"config": {
+						"size": 16,
+						"discard_chance_on_air_exposure": 0.4,
+						"targets": [
+							{
+								"target": {
+									"predicate_type": "minecraft:block_match",
+									"block": "minecraft:netherrack"
+								},
+								"state": {
+									"Name": "minecraft:nether_gold_ore"
+								}
+							},
+							{
+								"target": {
+									"predicate_type": "minecraft:block_match",
+									"block": "minecraft:blackstone"
+								},
+								"state": {
+									"Name": "minecraft:gilded_blackstone"
+								}
+							}
+						]
+					}
+				},
+				"placement": []
+			}
+		]
+	}
+}

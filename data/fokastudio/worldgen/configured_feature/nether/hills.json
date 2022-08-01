@@ -14,7 +14,7 @@
 				"max_inclusive": 6
 			}
 		},
-		"replaceable": "#fokastudio:netherrack",
+		"replaceable": "#fokastudio:nether/netherrack",
 		"ground_state": {
 			"type": "minecraft:simple_state_provider",
 			"state": {

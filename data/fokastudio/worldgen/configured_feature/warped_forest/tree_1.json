@@ -37,35 +37,15 @@
       "type": "minecraft:weighted_state_provider",
       "entries": [
         {
-          "weight": 40,
+          "weight": 7,
           "data": {
-            "Name": "minecraft:oak_leaves",
-            "Properties": {
-              "distance": "1",
-              "persistent": "true"
-            }
+            "Name":"warped_wart_block"
           }
         },
         {
-          "weight": 25,
+          "weight": 2,
           "data": {
-            "Name": "minecraft:dark_oak_leaves",
-            "Properties": {
-              "distance": "1",
-              "persistent": "true"
-            }
-          }
-        },
-        {
-          "weight": 1,
-          "data": {
-            "Name": "minecraft:sea_lantern"
-          }
-        },
-        {
-          "weight": 35,
-          "data": {
-            "Name": "minecraft:warped_wart_block"
+            "Name": "minecraft:air"
           }
         }
       ]
@@ -90,27 +70,6 @@
         }
       }
     },
-    "decorators": [
-      {
-        "type": "minecraft:alter_ground",
-        "provider": {
-          "type": "minecraft:weighted_state_provider",
-          "entries": [
-            {
-              "weight": 1,
-              "data": {
-                "Name": "minecraft:blue_ice"
-              }
-            },
-            {
-              "weight": 15,
-              "data": {
-                "Name": "minecraft:packed_ice"
-              }
-            }
-          ]
-        }
-      }
-    ]
+    "decorators": []
   }
 }

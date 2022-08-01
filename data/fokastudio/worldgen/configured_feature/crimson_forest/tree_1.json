@@ -37,35 +37,21 @@
       "type": "minecraft:weighted_state_provider",
       "entries": [
         {
-          "weight": 20,
+          "weight": 7,
           "data": {
-            "Name": "minecraft:oak_leaves",
-            "Properties": {
-              "distance": "1",
-              "persistent": "true"
-            }
+            "Name":"nether_wart_block"
           }
         },
         {
-          "weight": 10,
+          "weight": 2,
           "data": {
-            "Name": "minecraft:dark_oak_leaves",
-            "Properties": {
-              "distance": "1",
-              "persistent": "true"
-            }
+            "Name": "minecraft:air"
           }
         },
         {
           "weight": 1,
           "data": {
             "Name": "minecraft:shroomlight"
-          }
-        },
-        {
-          "weight": 30,
-          "data": {
-            "Name": "minecraft:nether_wart_block"
           }
         }
       ]

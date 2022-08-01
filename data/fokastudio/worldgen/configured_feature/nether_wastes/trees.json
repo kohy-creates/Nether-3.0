@@ -30,23 +30,15 @@
       "type": "minecraft:weighted_state_provider",
       "entries": [
         {
-          "weight": 10,
+          "weight": 7,
           "data": {
-            "Name": "minecraft:acacia_leaves",
-            "Properties": {
-              "distance": "1",
-              "persistent": "false"
-            }
+            "Name":"nether_wart_block"
           }
         },
         {
-          "weight": 1,
+          "weight": 3,
           "data": {
-            "Name": "minecraft:jungle_leaves",
-            "Properties": {
-              "distance": "1",
-              "persistent": "false"
-            }
+            "Name": "minecraft:air"
           }
         }
       ]

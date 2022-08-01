@@ -15,13 +15,6 @@
 					"feature": "fokastudio:warped_forest/delta_2",
 					"placement": []
 				}
-			},
-			{
-				"chance": 0.3333,
-				"feature": {
-					"feature": "fokastudio:warped_forest/delta_3",
-					"placement": []
-				}
 			}
 		],
 		"default": {

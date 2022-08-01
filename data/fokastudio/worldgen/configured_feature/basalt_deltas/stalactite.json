@@ -14,7 +14,7 @@
 				"max_inclusive": 6
 			}
 		},
-		"replaceable": "#fokastudio:basalt_deltas/stalactites_replacable",
+		"replaceable": "#fokastudio:nether/basalt_deltas/stalactites_replacable",
 		"ground_state": {
 			"type": "minecraft:weighted_state_provider",
 			"entries": [

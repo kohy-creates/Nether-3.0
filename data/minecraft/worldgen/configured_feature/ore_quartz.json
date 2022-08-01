@@ -1,0 +1,133 @@
+{
+	"type": "minecraft:simple_random_selector",
+	"config": {
+		"features": [
+			{
+				"feature": {
+					"type": "minecraft:ore",
+					"config": {
+						"size": 14,
+						"discard_chance_on_air_exposure": 0.15,
+						"targets": [
+							{
+								"target": {
+									"predicate_type": "minecraft:block_match",
+									"block": "minecraft:netherrack"
+								},
+								"state": {
+									"Name": "minecraft:nether_quartz_ore"
+								}
+							}
+						]
+					}
+				},
+				"placement": []
+			},
+			{
+				"feature": {
+					"type": "minecraft:ore",
+					"config": {
+						"size": 9,
+						"discard_chance_on_air_exposure": 0,
+						"targets": [
+							{
+								"target": {
+									"predicate_type": "minecraft:block_match",
+									"block": "minecraft:netherrack"
+								},
+								"state": {
+									"Name": "minecraft:nether_quartz_ore"
+								}
+							}
+						]
+					}
+				},
+				"placement": []
+			},
+			{
+				"feature": {
+					"type": "minecraft:ore",
+					"config": {
+						"size": 18,
+						"discard_chance_on_air_exposure": 0.33,
+						"targets": [
+							{
+								"target": {
+									"predicate_type": "minecraft:block_match",
+									"block": "minecraft:netherrack"
+								},
+								"state": {
+									"Name": "minecraft:nether_quartz_ore"
+								}
+							}
+						]
+					}
+				},
+				"placement": []
+			},
+			{
+				"feature": {
+					"type": "minecraft:scattered_ore",
+					"config": {
+						"size": 14,
+						"discard_chance_on_air_exposure": 0.14,
+						"targets": [
+							{
+								"target": {
+									"predicate_type": "minecraft:block_match",
+									"block": "minecraft:netherrack"
+								},
+								"state": {
+									"Name": "minecraft:nether_quartz_ore"
+								}
+							}
+						]
+					}
+				},
+				"placement": []
+			},
+			{
+				"feature": {
+					"type": "minecraft:scattered_ore",
+					"config": {
+						"size": 9,
+						"discard_chance_on_air_exposure": 0,
+						"targets": [
+							{
+								"target": {
+									"predicate_type": "minecraft:block_match",
+									"block": "minecraft:netherrack"
+								},
+								"state": {
+									"Name": "minecraft:nether_quartz_ore"
+								}
+							}
+						]
+					}
+				},
+				"placement": []
+			},
+			{
+				"feature": {
+					"type": "minecraft:scattered_ore",
+					"config": {
+						"size": 18,
+						"discard_chance_on_air_exposure": 0.36,
+						"targets": [
+							{
+								"target": {
+									"predicate_type": "minecraft:block_match",
+									"block": "minecraft:netherrack"
+								},
+								"state": {
+									"Name": "minecraft:nether_quartz_ore"
+								}
+							}
+						]
+					}
+				},
+				"placement": []
+			}
+		]
+	}
+}

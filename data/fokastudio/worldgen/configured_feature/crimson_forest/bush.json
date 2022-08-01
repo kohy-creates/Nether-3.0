@@ -27,33 +27,15 @@
       "type": "minecraft:weighted_state_provider",
       "entries": [
         {
-          "weight": 2,
-          "data": {
-            "Name": "minecraft:jungle_leaves",
-            "Properties": {
-              "distance": "1",
-              "persistent": "true"
-            }
-          }
-        },
-        {
           "weight": 7,
           "data": {
-            "Name": "minecraft:oak_leaves",
-            "Properties": {
-              "distance": "1",
-              "persistent": "true"
-            }
+            "Name":"nether_wart_block"
           }
         },
         {
-          "weight": 5,
+          "weight": 2,
           "data": {
-            "Name": "minecraft:dark_oak_leaves",
-            "Properties": {
-              "distance": "1",
-              "persistent": "true"
-            }
+            "Name": "minecraft:air"
           }
         }
       ]

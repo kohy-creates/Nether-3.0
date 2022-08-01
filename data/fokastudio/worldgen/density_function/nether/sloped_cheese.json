@@ -1,0 +1,25 @@
+{
+	"type": "minecraft:add",
+	"argument1": {
+		"type": "minecraft:mul",
+		"argument1": 3.75,
+		"argument2": {
+				"type": "minecraft:mul",
+				"argument1": {
+					"type": "minecraft:add",
+					"argument1": -0.11,
+					"argument2": {
+						"type": "minecraft:mul",
+						"argument1": "fokastudio:nether/jaggedness",
+						"argument2": {
+							"type": "minecraft:add",
+							"argument1": -0.21,
+							"argument2": "fokastudio:nether/offset"
+						}
+					}
+				},
+				"argument2": "fokastudio:nether/factor"
+		}
+	},
+	"argument2": "fokastudio:nether/base_3d_noise"
+}
