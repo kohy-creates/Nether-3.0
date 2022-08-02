@@ -2,6 +2,8 @@
 	"replace": false,
 	"values": [
 		"#geode_invalid_blocks",
-		"air"
+		"air",
+		"nether_bricks",
+		"polished_blackstone_bricks"
 	]
 }

@@ -33,7 +33,7 @@
 				{
 					"biome": "fokastudio:crimson_plains",
 					"parameters": {
-						"temperature": 0.4,
+						"temperature": 0.6,
 						"humidity": 0,
 						"continentalness": 0,
 						"erosion": 0,
@@ -45,7 +45,7 @@
 				{
 					"biome": "minecraft:crimson_forest",
 					"parameters": {
-						"temperature": 0.5,
+						"temperature": 0.7,
 						"humidity": 0,
 						"continentalness": 0,
 						"erosion": 0,

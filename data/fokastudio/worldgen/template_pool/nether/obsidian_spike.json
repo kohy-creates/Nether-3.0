@@ -11,7 +11,7 @@
 				"processors": "fokastudio:nether/obsidian_spike"
 			}
 		},
-        {
+		{
 			"weight": 1,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
@@ -20,7 +20,7 @@
 				"processors": "fokastudio:nether/obsidian_spike"
 			}
 		},
-        {
+		{
 			"weight": 1,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
@@ -29,7 +29,7 @@
 				"processors": "fokastudio:nether/obsidian_spike"
 			}
 		},
-        {
+		{
 			"weight": 1,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
@@ -38,7 +38,7 @@
 				"processors": "fokastudio:nether/obsidian_spike"
 			}
 		},
-        {
+		{
 			"weight": 1,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
@@ -47,12 +47,30 @@
 				"processors": "fokastudio:nether/obsidian_spike"
 			}
 		},
-        {
+		{
 			"weight": 1,
 			"element": {
 				"element_type": "minecraft:single_pool_element",
 				"projection": "rigid",
 				"location": "fokastudio:nether/obsidian_pillar/6",
+				"processors": "fokastudio:nether/obsidian_spike"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:nether/obsidian_pillar/7",
+				"processors": "fokastudio:nether/obsidian_spike"
+			}
+		},
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "fokastudio:nether/obsidian_pillar/8",
 				"processors": "fokastudio:nether/obsidian_spike"
 			}
 		}
