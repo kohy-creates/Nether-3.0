@@ -1,0 +1,10 @@
+{
+	"required": false,
+	"values": [
+		"#fokastudio:commons/horses",
+		"minecraft:parrot",
+		"minecraft:wolf",
+		"minecraft:cat",
+		"minecraft:axolotl"
+	]
+}

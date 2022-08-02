@@ -1,0 +1,14 @@
+{
+	"required":false,
+	"values": [
+		"#fokastudio:commons/fish",
+		"minecraft:dolphin",
+		"minecraft:guardian",
+		"minecraft:elder_guardian",
+		"minecraft:drowned",
+		"minecraft:squid",
+		"minecraft:glow_squid",
+		"minecraft:axolotl",
+		"minecraft:turtle"
+	]
+} 

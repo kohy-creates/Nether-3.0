@@ -1,0 +1,11 @@
+{
+	"required":false,
+	"values": [
+		"#fokastudio:commons/zombies",
+		"#fokastudio:commons/skeletons",
+		"minecraft:phantom",
+		"minecraft:zombified_piglin",
+		"minecraft:zoglin",
+		"minecraft:wither"
+	]
+}

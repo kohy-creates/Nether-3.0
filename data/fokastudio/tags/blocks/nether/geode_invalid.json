@@ -4,6 +4,7 @@
 		"#geode_invalid_blocks",
 		"air",
 		"nether_bricks",
-		"polished_blackstone_bricks"
+		"polished_blackstone_bricks",
+		"bedrock"
 	]
 }

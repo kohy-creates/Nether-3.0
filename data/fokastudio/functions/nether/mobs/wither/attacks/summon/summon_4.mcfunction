@@ -1,0 +1,4 @@
+summon wither_skeleton
+summon wither_skeleton
+summon wither_skeleton
+summon wither_skeleton

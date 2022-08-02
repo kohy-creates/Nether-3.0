@@ -1,0 +1,7 @@
+{
+	"required":false,
+	"values": [
+		"#fokastudio:commons/mobs",
+		"minecraft:player"
+	]
+} 
