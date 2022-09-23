@@ -5,7 +5,7 @@
 		"minecraft:crimson_forest",
 		"minecraft:warped_forest",
 		"minecraft:basalt_deltas",
-		"fokastudio:warped_plains",
-		"fokastudio:crimson_plains"
+		"fokastudio:nether/warped_plains",
+		"fokastudio:nether/crimson_plains"
 	]
 }

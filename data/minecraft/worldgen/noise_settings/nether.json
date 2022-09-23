@@ -1,6 +1,6 @@
 {
 	"sea_level": 32,
-	"disable_mob_generation": true,
+	"disable_mob_generation": false,
 	"aquifers_enabled": false,
 	"ore_veins_enabled": false,
 	"legacy_random_source": false,
@@ -411,7 +411,8 @@
 								"type": "minecraft:biome",
 								"biome_is": [
 									"minecraft:warped_forest",
-									"fokastudio:warped_plains"
+									"fokastudio:nether/warped_plains",
+									"fokastudio:nether/warped_marshland"
 								]
 							},
 							"then_run": {
@@ -470,7 +471,8 @@
 								"type": "minecraft:biome",
 								"biome_is": [
 									"minecraft:crimson_forest",
-									"fokastudio:crimson_plains"
+									"fokastudio:nether/crimson_plains",
+									"fokastudio:nether/crimson_marshland"
 								]
 							},
 							"then_run": {

@@ -82,8 +82,8 @@
 	},
 	"features": [
 		[
-			"fokastudio:soul_sand_valley/stalactite",
-			"fokastudio:soul_sand_valley/hills"
+			"fokastudio:nether/soul_sand_valley/stalactite",
+			"fokastudio:nether/soul_sand_valley/hills"
 		],
 		[
 			"minecraft:basalt_pillar"
@@ -105,16 +105,17 @@
 			"minecraft:glowstone",
 			"minecraft:glowstone_extra",
 			"minecraft:ore_soul_sand",
-			"fokastudio:nether_geode"
+			"fokastudio:nether/geode"
 		],
 		[],
 		[
-			"fokastudio:soul_sand_valley/nylium",
-			"fokastudio:soul_sand_valley/decorate",
-			"fokastudio:soul_sand_valley/weeping_vines"
+			"fokastudio:nether/soul_sand_valley/nylium",
+			"fokastudio:nether/soul_sand_valley/decorate",
+			"fokastudio:nether/soul_sand_valley/weeping_vines"
 		],
 		[
-			"fokastudio:dungeons/nether/dungeons"
+			 "fokastudio:nether/dungeons/nether/dungeons",
+"fokastudio:nether/dungeons/nether/netherite_dungeon"
 		]
 	]
 }

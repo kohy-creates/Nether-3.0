@@ -1,0 +1,102 @@
+{
+	"temperature": 2,
+	"downfall": 0,
+	"precipitation": "none",
+	"effects": {
+		"sky_color": 5667492,
+		"fog_color": 4283249,
+		"water_color": 4159204,
+		"water_fog_color": 329011,
+		"grass_color": 4352911,
+		"foliage_color": 4422056,
+		"ambient_sound": "minecraft:ambient.warped_forest.loop",
+		"mood_sound": {
+			"sound": "minecraft:ambient.warped_forest.mood",
+			"tick_delay": 1100,
+			"block_search_extent": 8,
+			"offset": 2
+		},
+		"additions_sound": {
+			"sound": "minecraft:ambient.warped_forest.additions",
+			"tick_chance": 0.0111
+		},
+		"music": {
+			"sound": "minecraft:music.nether.warped_forest",
+			"min_delay": 3000,
+			"max_delay": 9000,
+			"replace_current_music": false
+		},
+		"particle": {
+			"options": {
+				"type": "minecraft:warped_spore"
+			},
+			"probability": 0.00416
+		}
+	},
+	"spawners": {
+		"monster": [
+			{
+				"type": "minecraft:strider",
+				"weight": 60,
+				"minCount": 4,
+				"maxCount": 4
+			}
+		],
+		"creature": [],
+		"ambient": [],
+		"underground_water_creature": [],
+		"water_creature": [],
+		"water_ambient": [],
+		"misc": []
+	},
+	"spawn_costs": {
+		"minecraft:enderman": {
+			"energy_budget": 0.24,
+			"charge": 1
+		}
+	},
+	"carvers": {
+		"air": [
+			"minecraft:nether_cave" 
+		]
+	},
+	"features": [
+		[
+			"fokastudio:nether/stalactite",
+			"fokastudio:nether/warped_forest/hills"
+		],
+		[
+			"minecraft:basalt_pillar"	
+		],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			"minecraft:spring_open",
+			"minecraft:ore_magma",
+			"minecraft:ore_blackstone",
+			"minecraft:ore_gold_nether",
+			"minecraft:ore_quartz_nether",
+			"minecraft:ore_ancient_debris_large",
+			"minecraft:ore_debris_small",
+			"minecraft:glowstone",
+			"minecraft:glowstone_extra"
+		],
+		[],
+		[
+			"minecraft:patch_fire",
+			"minecraft:twisting_vines",
+			"minecraft:brown_mushroom_nether",
+			"minecraft:red_mushroom_nether",
+			"fokastudio:nether/warped_plains/warped_fungi_spaced",
+			"minecraft:warped_forest_vegetation",
+			"fokastudio:nether/geode"
+		],
+		[
+			 "fokastudio:nether/dungeons/nether/dungeons",
+"fokastudio:nether/dungeons/nether/netherite_dungeon"
+		]
+	]
+}

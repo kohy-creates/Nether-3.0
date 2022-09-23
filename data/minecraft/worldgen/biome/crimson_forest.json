@@ -78,7 +78,7 @@
 	"features": [
 		[
 			"fokastudio:nether/stalactite",
-			"fokastudio:crimson_forest/hills"
+			"fokastudio:nether/crimson_forest/hills"
 		],
 		[	
 			"minecraft:basalt_pillar"
@@ -98,7 +98,7 @@
 			"minecraft:ore_debris_small",
 			"minecraft:glowstone",
 			"minecraft:glowstone_extra",
-			"fokastudio:nether_geode"
+			"fokastudio:nether/geode"
 		],
 		[],
 		[
@@ -106,13 +106,14 @@
 			"minecraft:weeping_vines",
 			"minecraft:brown_mushroom_nether",
 			"minecraft:red_mushroom_nether",
-			"fokastudio:crimson_forest/trees",
+			"fokastudio:nether/crimson_forest/trees",
 			"minecraft:crimson_fungi",
 			"minecraft:crimson_forest_vegetation"
 		],
 		[
-			"fokastudio:crimson_forest/deltas",
-			"fokastudio:dungeons/nether/dungeons"
+			"fokastudio:nether/crimson_forest/deltas",
+			 "fokastudio:nether/dungeons/nether/dungeons",
+"fokastudio:nether/dungeons/nether/netherite_dungeon"
 		]
 	]
 }

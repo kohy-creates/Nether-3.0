@@ -4,7 +4,7 @@
 		"minecraft:nether_wastes",
 		"minecraft:soul_sand_valley",
 		"minecraft:warped_forest",
-		"fokastudio:crimson_plains",
-		"fokastudio:warped_plains"
+		"fokastudio:nether/crimson_plains",
+		"fokastudio:nether/warped_plains"
 	]
 }

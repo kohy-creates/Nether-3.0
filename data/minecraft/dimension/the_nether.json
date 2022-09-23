@@ -19,6 +19,18 @@
 					}
 				},
 				{
+					"biome": "fokastudio:nether/nether_caverns",
+					"parameters": {
+						"temperature": 0,
+						"humidity": 0,
+						"continentalness": 0,
+						"erosion": 0.55,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0
+					}
+				},
+				{
 					"biome": "minecraft:soul_sand_valley",
 					"parameters": {
 						"temperature": 0,
@@ -31,15 +43,15 @@
 					}
 				},
 				{
-					"biome": "fokastudio:crimson_plains",
+					"biome": "fokastudio:nether/crimson_plains",
 					"parameters": {
-						"temperature": 0.6,
+						"temperature": 0.675,
 						"humidity": 0,
 						"continentalness": 0,
 						"erosion": 0,
 						"weirdness": 0,
 						"depth": 0,
-						"offset": 0
+						"offset": 0.125
 					}
 				},
 				{
@@ -55,10 +67,22 @@
 					}
 				},
 				{
-					"biome": "fokastudio:warped_plains",
+					"biome": "fokastudio:nether/crimson_marshland",
+					"parameters": {
+						"temperature": 0.7,
+						"humidity": -0.5,
+						"continentalness": 0,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0.175
+					}
+				},
+				{
+					"biome": "fokastudio:nether/warped_plains",
 					"parameters": {
 						"temperature": 0,
-						"humidity": 0.4,
+						"humidity": 0.475,
 						"continentalness": 0,
 						"erosion": 0,
 						"weirdness": 0,
@@ -71,6 +95,24 @@
 					"parameters": {
 						"temperature": 0,
 						"humidity": 0.5,
+						"continentalness": 0,
+						"erosion": 0,
+						"weirdness": 0,
+						"depth": 0,
+						"offset": 0.375
+					}
+				},
+				{
+					"biome": "fokastudio:nether/warped_marshland",
+					"parameters": {
+						"temperature": [
+							-0.11,
+							-0.1
+						],
+						"humidity": [
+							0.5,
+							0.6
+						],
 						"continentalness": 0,
 						"erosion": 0,
 						"weirdness": 0,

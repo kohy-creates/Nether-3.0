@@ -63,7 +63,7 @@
 	"features": [
 		[
 			"fokastudio:nether/stalactite",
-			"fokastudio:warped_forest/hills"
+			"fokastudio:nether/warped_forest/hills"
 		],
 		[
 			"minecraft:basalt_pillar"	
@@ -90,14 +90,15 @@
 			"minecraft:twisting_vines",
 			"minecraft:brown_mushroom_nether",
 			"minecraft:red_mushroom_nether",
-			"fokastudio:warped_forest/trees",
+			"fokastudio:nether/warped_forest/trees",
 			"minecraft:warped_fungi",
 			"minecraft:warped_forest_vegetation",
-			"fokastudio:nether_geode"
+			"fokastudio:nether/geode"
 		],
 		[
-			"fokastudio:warped_forest/deltas",
-			"fokastudio:dungeons/nether/dungeons"
+			"fokastudio:nether/warped_forest/deltas",
+			 "fokastudio:nether/dungeons/nether/dungeons",
+"fokastudio:nether/dungeons/nether/netherite_dungeon"
 		]
 	]
 }

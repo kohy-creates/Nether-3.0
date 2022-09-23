@@ -1,0 +1,46 @@
+{
+	"feature": "fokastudio:nether/nether_wastes/trees",
+	"placement": [
+		{
+			"type": "minecraft:biome"
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					-1,
+					0
+				],
+				"blocks": [
+					"minecraft:mycelium",
+					"minecraft:netherrack"
+				]
+			}
+		},
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 1
+		},
+		{
+			"type": "minecraft:height_range",
+			"height": {
+				"type": "minecraft:uniform",
+				"min_inclusive": {
+					"above_bottom": 0
+				},
+				"max_inclusive": {
+					"below_top": 0
+				}
+			}
+		},
+		{
+			"type": "minecraft:heightmap",
+			"heightmap": "OCEAN_FLOOR"
+		},
+		{
+			"type": "in_square"
+		}
+	]
+}

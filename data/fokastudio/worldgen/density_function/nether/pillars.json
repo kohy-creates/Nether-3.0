@@ -10,8 +10,8 @@
 				"argument2": {
 					"type": "minecraft:noise",
 					"noise": "minecraft:pillar",
-					"xz_scale": 25,
-					"y_scale": 0.3
+					"xz_scale": 50,
+					"y_scale": 1
 				}
 			},
 			"argument2": {
@@ -23,8 +23,8 @@
 					"argument2": {
 						"type": "minecraft:noise",
 						"noise": "minecraft:pillar_rareness",
-						"xz_scale": 1,
-						"y_scale": 1
+						"xz_scale": 8,
+						"y_scale": 4
 					}
 				}
 			}
@@ -40,8 +40,8 @@
 					"argument2": {
 						"type": "minecraft:noise",
 						"noise": "minecraft:pillar_thickness",
-						"xz_scale": 1,
-						"y_scale": 1
+						"xz_scale": 4,
+						"y_scale": 2
 					}
 				}
 			}

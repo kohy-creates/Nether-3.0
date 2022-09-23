@@ -1,8 +1,8 @@
 {
 	"type": "minecraft:shifted_noise",
 	"noise": "fokastudio:nether/ridges",
-	"xz_scale": 0.17,
-	"y_scale": 0,
+	"xz_scale": 0.233,
+	"y_scale": 0.115,
 	"shift_x": "minecraft:shift_x",
 	"shift_y": 0,
 	"shift_z": "minecraft:shift_z"

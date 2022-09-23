@@ -70,8 +70,8 @@
 			{
 				"type": "minecraft:strider",
 				"weight": 60,
-				"minCount": 1,
-				"maxCount": 3
+				"minCount": 4,
+				"maxCount": 4
 			}
 		],
 		"ambient": [],
@@ -90,7 +90,7 @@
 		[
 			"fokastudio:nether/stalactite",
 			"fokastudio:nether/hills",
-			"fokastudio:nether_wastes/beaches"
+			"fokastudio:nether/nether_wastes/beaches"
 		],
 		[
 			"minecraft:basalt_pillar"
@@ -114,15 +114,16 @@
 			"minecraft:glowstone",
 			"minecraft:glowstone_extra",
 			"minecraft:ore_soul_sand",
-			"fokastudio:nether_geode"
+			"fokastudio:nether/geode"
 		],
 		[],
 		[
-			"fokastudio:nether_wastes/decoration",
-			"fokastudio:nether_wastes/trees"
+			"fokastudio:nether/nether_wastes/decoration",
+			"fokastudio:nether/nether_wastes/trees"
 		],
 		[
-			"fokastudio:dungeons/nether/dungeons"
+			 "fokastudio:nether/dungeons/nether/dungeons",
+"fokastudio:nether/dungeons/nether/netherite_dungeon"
 		]
 	]
 }

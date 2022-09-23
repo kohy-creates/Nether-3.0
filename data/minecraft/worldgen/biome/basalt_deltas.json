@@ -70,8 +70,8 @@
 	},
 	"features": [
 		[
-			"fokastudio:basalt_deltas/stalactite",
-			"fokastudio:basalt_deltas/hills"
+			"fokastudio:nether/basalt_deltas/stalactite",
+			"fokastudio:nether/basalt_deltas/hills"
 		],
 		[
 			"minecraft:basalt_pillar",
@@ -99,11 +99,12 @@
 		],
 		[],
 		[
-			"fokastudio:basalt_deltas/tree"
+			"fokastudio:nether/basalt_deltas/tree"
 		],
 		[
-			"fokastudio:basalt_deltas/additions",
-			"fokastudio:dungeons/nether/dungeons"
+			"fokastudio:nether/basalt_deltas/additions",
+			 "fokastudio:nether/dungeons/nether/dungeons",
+"fokastudio:nether/dungeons/nether/netherite_dungeon"
 		]
 	]
 }
