@@ -6,3 +6,5 @@ execute as @e[type=area_effect_cloud,tag=foka.nether.wither.aec,nbt={Age:58}] at
 execute as @e[type=area_effect_cloud,tag=foka.nether.wither.aec,nbt={Age:60}] at @s run function fokastudio:nether/mobs/wither/attacks/phase2/summon
 
 execute as @e[type=wither_skull] at @s run function fokastudio:nether/mobs/wither/visuals/skull_trail
+execute as @e[type=wither,tag=!foka.nether.wither.played_spawn_animation] at @s run function fokastudio:nether/mobs/wither/animations/spawn/play
+execute as @e[tag=foka.nether.wither.cem_armor_stand] at @s run function fokastudio:nether/mobs/wither/animations/spawn/loop
