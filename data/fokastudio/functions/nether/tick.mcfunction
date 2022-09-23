@@ -1,1 +1,1 @@
-function fokastudio:nether/mobs/wither/main
+function fokastudio:nether/mobs/main
