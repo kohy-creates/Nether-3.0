@@ -6,9 +6,7 @@
 		"sky_color": 6577768,
 		"fog_color": 5065040,
 		"water_color": 4159204,
-		"water_fog_color": 4341314,
-		"grass_color": 4209210,
-		"foliage_color": 3683123,
+		"water_fog_color": 329011,
 		"ambient_sound": "minecraft:ambient.basalt_deltas.loop",
 		"mood_sound": {
 			"sound": "minecraft:ambient.basalt_deltas.mood",
@@ -102,9 +100,7 @@
 			"nether:nether_geode"
 		],
 		[],
-		[
-			"nether:basalt_deltas/additions"
-		],
+		[],
 		[]
 	]
 }

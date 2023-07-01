@@ -1,12 +1,12 @@
 {
-  "feature": "nether:warped_forest/deltas",
-  "placement": [
-    {
-      "type": "minecraft:biome"
-    },
-    {
-      "type": "minecraft:count_on_every_layer",
-      "count": 2
-    }
-  ]
+	"feature": "nether:warped_forest/deltas",
+	"placement": [
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": 2
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
 }

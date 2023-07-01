@@ -1,12 +1,12 @@
 {
-  "feature": "nether:crimson_forest/deltas",
-  "placement": [
-    {
-      "type": "minecraft:biome"
-    },
-    {
-      "type": "minecraft:count_on_every_layer",
-      "count": 3
-    }
-  ]
+	"feature": "nether:crimson_forest/deltas",
+	"placement": [
+		{
+			"type": "minecraft:count_on_every_layer",
+			"count": 3
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
 }

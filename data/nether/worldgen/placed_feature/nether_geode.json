@@ -2,26 +2,26 @@
 	"feature": "nether:nether_geode",
 	"placement": [
 		{
-			"type": "minecraft:biome"
+			"type": "minecraft:rarity_filter",
+			"chance": 15
 		},
 		{
-			"type": "minecraft:rarity_filter",
-			"chance": 6
+			"type": "minecraft:in_square"
 		},
 		{
 			"type": "minecraft:height_range",
 			"height": {
 				"type": "minecraft:uniform",
 				"min_inclusive": {
-					"above_bottom": 12
+					"above_bottom": 14
 				},
 				"max_inclusive": {
-					"below_top": 12
+					"below_top": 14
 				}
 			}
 		},
 		{
-			"type": "in_square"
+			"type": "minecraft:biome"
 		}
 	]
 }

@@ -8,19 +8,19 @@
 				"distribution": [
 					{
 						"weight": 100,
-						"data": 28
+						"data": 14
 					},
 					{
 						"weight": 50,
-						"data": 56
+						"data": 30
 					},
 					{
 						"weight": 25,
-						"data": 112
+						"data": 60
 					},
 					{
 						"weight": 1,
-						"data": 160
+						"data": 100
 					}
 				]
 			}

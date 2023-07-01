@@ -7,8 +7,6 @@
 		"fog_color": 2491139,
 		"water_color": 4159204,
 		"water_fog_color": 329011,
-		"grass_color": 5590608,
-		"foliage_color": 7934225,
 		"ambient_sound": "minecraft:ambient.nether_wastes.loop",
 		"mood_sound": {
 			"sound": "minecraft:ambient.nether_wastes.mood",

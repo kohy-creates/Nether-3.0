@@ -3,12 +3,10 @@
 	"downfall": 0,
 	"has_precipitation": false,
 	"effects": {
-		"sky_color": 5667492,
-		"fog_color": 4283249,
+		"sky_color": 7254527,
+		"fog_color": 1705242,
 		"water_color": 4159204,
 		"water_fog_color": 329011,
-		"grass_color": 4352911,
-		"foliage_color": 4422056,
 		"ambient_sound": "minecraft:ambient.warped_forest.loop",
 		"mood_sound": {
 			"sound": "minecraft:ambient.warped_forest.mood",
@@ -64,15 +62,13 @@
 	"features": [
 		[
 			"nether:hills",
-			"nether:stalactite",
-			"nether:warped_forest/ceiling"
+			"nether:stalactite"
 		],
 		[],
 		[],
 		[],
 		[
-			"nether:warped_forest/deltas",
-			"nether:warped_forest/lakes"
+			"nether:warped_forest/deltas"
 		],
 		[],
 		[],
@@ -101,7 +97,6 @@
 			"minecraft:warped_forest_vegetation",
 			"minecraft:nether_sprouts",
 			"minecraft:twisting_vines",
-			"nether:warped_forest/bush",
 			"nether:warped_forest/trees"
 		],
 		[]

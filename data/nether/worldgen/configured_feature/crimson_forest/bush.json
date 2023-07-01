@@ -29,32 +29,14 @@
         {
           "weight": 2,
           "data": {
-            "Name": "minecraft:jungle_leaves",
-            "Properties": {
-              "distance": "1",
-              "persistent": "true"
+            "Name": "minecraft:nether_wart_block"
             }
-          }
         },
         {
-          "weight": 7,
+          "weight": 1,
           "data": {
-            "Name": "minecraft:oak_leaves",
-            "Properties": {
-              "distance": "1",
-              "persistent": "true"
+            "Name": "minecraft:air"
             }
-          }
-        },
-        {
-          "weight": 5,
-          "data": {
-            "Name": "minecraft:dark_oak_leaves",
-            "Properties": {
-              "distance": "1",
-              "persistent": "true"
-            }
-          }
         }
       ]
     },

@@ -7,8 +7,6 @@
 		"fog_color": 1787717,
 		"water_color": 4159204,
 		"water_fog_color": 329011,
-		"grass_color": 3759732,
-		"foliage_color": 2706263,
 		"ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
 		"mood_sound": {
 			"sound": "minecraft:ambient.soul_sand_valley.mood",
@@ -101,9 +99,7 @@
 			"nether:soul_sand_valley/hills",
 			"nether:soul_sand_valley/stalactite"
 		],
-		[
-			"nether:soul_sand_valley/nylium"
-		],
+		[],
 		[
 			"minecraft:basalt_pillar"
 		],

@@ -1,35 +1,27 @@
 {
-	"type": "minecraft:random_selector",
+	"type": "minecraft:delta_feature",
 	"config": {
-		"features": [
-			{
-				"chance": 0.3333,
-				"feature": {
-					"feature": "nether:crimson_forest/delta_1",
-					"placement": []
-				}
-			},
-			{
-				"chance": 0.3333,
-				"feature": {
-					"feature": "nether:crimson_forest/delta_2",
-					"placement": []
-				}
-			},
-			{
-				"chance": 0.3333,
-				"feature": {
-					"feature": "nether:crimson_forest/delta_3",
-					"placement": []
-				}
-			}
-		],
-		"default": {
-			"feature": {
-				"type": "no_op",
-				"config": {}
-			},
-			"placement": []
+	  "contents": {
+		"Name": "minecraft:nether_wart_block",
+		"Properties": {}
+	  },
+	  "rim": {
+		"Name": "minecraft:netherrack"
+	  },
+	  "size": {
+		"type": "minecraft:uniform",
+		"value": {
+		  "min_inclusive": 6,
+		  "max_inclusive": 9
 		}
+	  },
+	  "rim_size": {
+		"type": "minecraft:uniform",
+		"value": {
+		  "min_inclusive": 2,
+		  "max_inclusive": 4
+		}
+	  }
 	}
-}
+  }
+  

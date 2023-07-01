@@ -10,7 +10,7 @@
 				}
 			},
 			{
-				"chance": 0.25,
+				"chance": 0.125,
 				"feature": {
 					"feature": "nether:soul_sand_valley/twisting_vines",
 					"placement": [
@@ -44,27 +44,6 @@
 							}
 						}
 					]
-				}
-			},
-			{
-				"chance": 0.053,
-				"feature": {
-					"feature": "nether:soul_sand_valley/decoration",
-					"placement": []
-				}
-			},
-			{
-				"chance": 0.06,
-				"feature": {
-					"feature": "nether:soul_sand_valley/columns",
-					"placement": []
-				}
-			},
-			{
-				"chance": 0.244,
-				"feature": {
-					"feature": "nether:soul_sand_valley/vegetation",
-					"placement": []
 				}
 			},
 			{

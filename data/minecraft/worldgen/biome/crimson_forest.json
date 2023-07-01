@@ -7,8 +7,6 @@
 		"fog_color": 3343107,
 		"water_color": 4159204,
 		"water_fog_color": 329011,
-		"grass_color": 12132898,
-		"foliage_color": 10490643,
 		"ambient_sound": "minecraft:ambient.crimson_forest.loop",
 		"mood_sound": {
 			"sound": "minecraft:ambient.crimson_forest.mood",
@@ -78,8 +76,7 @@
 	"features": [
 		[
 			"nether:hills",
-			"nether:stalactite",
-			"nether:crimson_forest/ceiling"
+			"nether:stalactite"
 		],
 		[],
 		[],
