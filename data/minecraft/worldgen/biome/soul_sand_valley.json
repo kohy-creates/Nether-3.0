@@ -1,7 +1,7 @@
 {
 	"temperature": 2,
 	"downfall": 0,
-	"precipitation": "none",
+	"has_precipitation": false,
 	"effects": {
 		"sky_color": 7254527,
 		"fog_color": 1787717,
@@ -12,7 +12,7 @@
 		"ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
 		"mood_sound": {
 			"sound": "minecraft:ambient.soul_sand_valley.mood",
-			"tick_delay": 1100,
+			"tick_delay": 6000,
 			"block_search_extent": 8,
 			"offset": 2
 		},
@@ -22,68 +22,87 @@
 		},
 		"music": {
 			"sound": "minecraft:music.nether.soul_sand_valley",
-			"min_delay": 3000,
-			"max_delay": 6000,
+			"min_delay": 12000,
+			"max_delay": 24000,
 			"replace_current_music": false
 		},
 		"particle": {
 			"options": {
 				"type": "minecraft:ash"
 			},
-			"probability": 0.0625
+			"probability": 0.00625
 		}
 	},
 	"spawners": {
 		"monster": [
 			{
-				"type": "minecraft:wither_skeleton",
-				"weight": 60,
-				"minCount": 2,
-				"maxCount": 3
-			},
-			{
 				"type": "minecraft:skeleton",
-				"weight": 90,
-				"minCount": 4,
+				"weight": 20,
+				"minCount": 5,
 				"maxCount": 5
 			},
 			{
-				"type": "minecraft:enderman",
-				"weight": 1,
-				"minCount": 4,
-				"maxCount": 4
+				"type": "minecraft:skeleton",
+				"weight": 10,
+				"minCount": 3,
+				"maxCount": 3
 			},
 			{
 				"type": "minecraft:ghast",
 				"weight": 50,
 				"minCount": 4,
 				"maxCount": 4
-			}
-		],
-		"creature": [
+			},
 			{
-				"type": "minecraft:strider",
-				"weight": 60,
+				"type": "minecraft:enderman",
+				"weight": 1,
 				"minCount": 4,
 				"maxCount": 4
 			}
 		],
+		"creature": [],
 		"ambient": [],
 		"underground_water_creature": [],
 		"water_creature": [],
 		"water_ambient": [],
 		"misc": []
 	},
-	"spawn_costs": {},
+	"spawn_costs": {
+		"minecraft:enderman": {
+			"energy_budget": 0.15,
+			"charge": 0.7
+		},
+		"minecraft:ghast": {
+			"energy_budget": 0.15,
+			"charge": 0.7
+		},
+		"minecraft:skeleton": {
+			"energy_budget": 0.15,
+			"charge": 0.7
+		},
+		"minecraft:wither_skeleton": {
+			"energy_budget": 0.15,
+			"charge": 0.7
+		},
+		"minecraft:strider": {
+			"energy_budget": 0.15,
+			"charge": 0.7
+		}
+	},
 	"carvers": {
 		"air": [
-			"minecraft:nether_cave" 
+			"minecraft:nether_cave"
 		]
 	},
 	"features": [
 		[
-			"fokastudio:nether/soul_sand_valley/stalactite",
-			"fokastudio:nether/soul_sand_valley/hills"
+			"nether:hills",
+			"nether:stalactite",
+			"nether:soul_sand_valley/hills",
+			"nether:soul_sand_valley/stalactite"
+		],
+		[
+			"nether:soul_sand_valley/nylium"
 		],
 		[
 			"minecraft:basalt_pillar"
@@ -92,30 +111,30 @@
 		[],
 		[],
 		[],
-		[],
 		[
 			"minecraft:spring_open",
+			"minecraft:patch_fire",
+			"minecraft:patch_soul_fire",
+			"minecraft:glowstone_extra",
+			"minecraft:glowstone",
+			"minecraft:patch_crimson_roots",
 			"minecraft:ore_magma",
+			"minecraft:spring_closed",
+			"minecraft:ore_soul_sand",
+			"minecraft:ore_gravel_nether",
 			"minecraft:ore_blackstone",
 			"minecraft:ore_gold_nether",
 			"minecraft:ore_quartz_nether",
 			"minecraft:ore_ancient_debris_large",
 			"minecraft:ore_debris_small",
-			"minecraft:ore_gravel_nether",
-			"minecraft:glowstone",
-			"minecraft:glowstone_extra",
-			"minecraft:ore_soul_sand",
-			"fokastudio:nether/geode"
-		],
-		[],
-		[
-			"fokastudio:nether/soul_sand_valley/nylium",
-			"fokastudio:nether/soul_sand_valley/decorate",
-			"fokastudio:nether/soul_sand_valley/weeping_vines"
+			"nether:nether_geode"
 		],
 		[
-			 "fokastudio:nether/dungeons/nether/dungeons",
-"fokastudio:nether/dungeons/nether/netherite_dungeon"
+			"nether:soul_sand_valley/weeping_vines",
+			"nether:soul_sand_valley/decorate"
+		],
+		[
+			"minecraft:spring_lava"
 		]
 	]
 }

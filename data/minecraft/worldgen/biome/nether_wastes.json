@@ -1,7 +1,7 @@
 {
 	"temperature": 2,
 	"downfall": 0,
-	"precipitation": "none",
+	"has_precipitation": false,
 	"effects": {
 		"sky_color": 7254527,
 		"fog_color": 2491139,
@@ -12,7 +12,7 @@
 		"ambient_sound": "minecraft:ambient.nether_wastes.loop",
 		"mood_sound": {
 			"sound": "minecraft:ambient.nether_wastes.mood",
-			"tick_delay": 1100,
+			"tick_delay": 6000,
 			"block_search_extent": 8,
 			"offset": 2
 		},
@@ -22,8 +22,8 @@
 		},
 		"music": {
 			"sound": "minecraft:music.nether.nether_wastes",
-			"min_delay": 3000,
-			"max_delay": 6000,
+			"min_delay": 12000,
+			"max_delay": 24000,
 			"replace_current_music": false
 		},
 		"particle": {
@@ -36,15 +36,21 @@
 	"spawners": {
 		"monster": [
 			{
+				"type": "minecraft:ghast",
+				"weight": 50,
+				"minCount": 4,
+				"maxCount": 4
+			},
+			{
 				"type": "minecraft:zombified_piglin",
 				"weight": 100,
 				"minCount": 4,
-				"maxCount": 6
+				"maxCount": 4
 			},
 			{
 				"type": "minecraft:magma_cube",
-				"weight": 5,
-				"minCount": 2,
+				"weight": 6,
+				"minCount": 4,
 				"maxCount": 4
 			},
 			{
@@ -55,13 +61,7 @@
 			},
 			{
 				"type": "minecraft:piglin",
-				"weight": 25,
-				"minCount": 4,
-				"maxCount": 4
-			},
-			{
-				"type": "minecraft:ghast",
-				"weight": 50,
+				"weight": 15,
 				"minCount": 4,
 				"maxCount": 4
 			}
@@ -70,8 +70,8 @@
 			{
 				"type": "minecraft:strider",
 				"weight": 60,
-				"minCount": 4,
-				"maxCount": 4
+				"minCount": 1,
+				"maxCount": 3
 			}
 		],
 		"ambient": [],
@@ -83,14 +83,14 @@
 	"spawn_costs": {},
 	"carvers": {
 		"air": [
-			"minecraft:nether_cave" 
+			"minecraft:nether_cave"
 		]
 	},
 	"features": [
 		[
-			"fokastudio:nether/stalactite",
-			"fokastudio:nether/hills",
-			"fokastudio:nether/nether_wastes/beaches"
+			"nether:hills",
+			"nether:stalactite",
+			"nether:nether_wastes/beaches"
 		],
 		[
 			"minecraft:basalt_pillar"
@@ -99,31 +99,30 @@
 		[],
 		[],
 		[],
-		[
-			
-		],
+		[],
 		[
 			"minecraft:spring_open",
+			"minecraft:patch_fire",
+			"minecraft:patch_soul_fire",
+			"minecraft:glowstone_extra",
+			"minecraft:glowstone",
+			"minecraft:brown_mushroom_nether",
+			"minecraft:red_mushroom_nether",
 			"minecraft:ore_magma",
+			"minecraft:spring_closed",
+			"minecraft:ore_gravel_nether",
 			"minecraft:ore_blackstone",
 			"minecraft:ore_gold_nether",
 			"minecraft:ore_quartz_nether",
 			"minecraft:ore_ancient_debris_large",
-			"minecraft:ore_debris_small",
-			"minecraft:ore_gravel_nether",
-			"minecraft:glowstone",
-			"minecraft:glowstone_extra",
-			"minecraft:ore_soul_sand",
-			"fokastudio:nether/geode"
+			"minecraft:ore_debris_small"
 		],
 		[],
 		[
-			"fokastudio:nether/nether_wastes/decoration",
-			"fokastudio:nether/nether_wastes/trees"
+			"minecraft:spring_lava",
+			"minecraft:brown_mushroom_normal",
+			"minecraft:red_mushroom_normal"
 		],
-		[
-			 "fokastudio:nether/dungeons/nether/dungeons",
-"fokastudio:nether/dungeons/nether/netherite_dungeon"
-		]
+		[]
 	]
 }

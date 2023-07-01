@@ -34,11 +34,15 @@
 						{
 							"function": "minecraft:set_count",
 							"count": {
-								"min": 2,
-								"max": 7
+								"min": 1,
+								"max": 2
 							}
 						}
 					]
+				},
+				{
+					"type": "minecraft:empty",
+					"weight": 4
 				}
 			]
 		}
