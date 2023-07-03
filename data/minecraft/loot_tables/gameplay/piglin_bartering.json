@@ -7,6 +7,11 @@
 			"entries": [
 				{
 					"type": "minecraft:item",
+					"weight": 4,
+					"name": "minecraft:netherite_upgrade_smithing_template"
+				},
+				{
+					"type": "minecraft:item",
 					"weight": 3,
 					"name": "minecraft:potion",
 					"functions": [
@@ -16,7 +21,7 @@
 						}
 					]
 				},
-                {
+				{
 					"type": "minecraft:item",
 					"weight": 5,
 					"name": "minecraft:rib_armor_trim_smithing_template"
@@ -34,7 +39,7 @@
 						}
 					]
 				},
-                {
+				{
 					"type": "minecraft:item",
 					"weight": 5,
 					"name": "minecraft:golden_carrot",
@@ -50,7 +55,7 @@
 						}
 					]
 				},
-                {
+				{
 					"type": "minecraft:item",
 					"weight": 5,
 					"name": "minecraft:nether_wart",
@@ -79,7 +84,7 @@
 						}
 					]
 				},
-                {
+				{
 					"type": "minecraft:item",
 					"weight": 8,
 					"name": "minecraft:glistering_melon_slice",
@@ -160,7 +165,7 @@
 						}
 					]
 				},
-                {
+				{
 					"type": "minecraft:item",
 					"weight": 10,
 					"name": "minecraft:warped_fungus_on_a_stick"
@@ -197,7 +202,7 @@
 						}
 					]
 				},
-                {
+				{
 					"type": "minecraft:item",
 					"weight": 20,
 					"name": "minecraft:crimson_nylium",
@@ -213,7 +218,7 @@
 						}
 					]
 				},
-                {
+				{
 					"type": "minecraft:item",
 					"weight": 20,
 					"name": "minecraft:warped_nylium",
@@ -233,7 +238,7 @@
 					"type": "minecraft:item",
 					"weight": 40,
 					"name": "minecraft:obsidian",
-                    "functions": [
+					"functions": [
 						{
 							"function": "minecraft:set_count",
 							"count": {
@@ -314,7 +319,7 @@
 						}
 					]
 				},
-                {
+				{
 					"type": "minecraft:item",
 					"weight": 40,
 					"name": "minecraft:glowstone_dust",
